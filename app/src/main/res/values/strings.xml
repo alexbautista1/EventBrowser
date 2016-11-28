@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">EventBrowser</string>
+  <string name="action_settings">Settings</string>
+  <string name="activity">StoryList</string>
+  <string name="story_description_hint">Description</string>
+  <string name="story_title_hint">Enter a name for the story</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+    <ImageView
+        android:id="@+id/list_item_story_card"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/card"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="6dp"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/list_item_story_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/list_item_story_card"
+        android:textStyle="bold"
+        android:padding="4dp"
+        tools:text="Card Number"
+        />
+
+    <TextView
+        android:id="@+id/list_item_story_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/list_item_story_card"
+        android:layout_below="@+id/list_item_story_name"
+        android:textStyle="bold"
+        android:padding="4dp"
+        tools:text="Description"/>
+
+    <TextView
+        android:id="@+id/list_item_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_story_description"
+        android:textStyle="bold"
+        android:padding="4dp"
+        tools:text="Name"/>
+
+
+
+
+</RelativeLayout>

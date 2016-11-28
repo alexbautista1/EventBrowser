@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/story_card"
+        android:src="@drawable/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+
+    <EditText android:id="@+id/story_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/story_title_hint"
+        />
+    <EditText android:id="@+id/story_description"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/story_description_hint"
+        />
+</LinearLayout>
